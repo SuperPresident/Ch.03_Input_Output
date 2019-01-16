@@ -1,18 +1,17 @@
 '''
 HONOR CODE: I solemnly promise that while taking this test I will only use PyCharm or the Internet,
-but I will definitely not ask another person except the instructor. Signed: ______________________
+but I will definitely not ask another person except the instructor. Signed: _____Darius____
 
 
 
 1. Write a line of code that will print your name.
 '''
+print('Darius')
 
 
-'''
 2. Write a program that asks someone for their name and then prints their name to the screen?
 
 '''
-
 
 '''
 3. Predict the output of the following lines of code and then test them? Write down your prediction and the output.
