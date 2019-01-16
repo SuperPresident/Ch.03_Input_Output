@@ -3,7 +3,7 @@ number=random.randrange(1,101)
 
 done=False
 count=0
-record=10000000000000000000000000000000000000000000000000
+record=100000000000
 print("this is a guess the computers numer game.")
 while not done:
 
