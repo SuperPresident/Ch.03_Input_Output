@@ -16,3 +16,14 @@ In: -40  Out: ???
 
 
 
+
+print("This is a conversion program")
+
+
+   #temperature
+temp=int(input("What's the temperature outside?"))
+
+print("That is", (temp-32)*5/9)
+
+
+
