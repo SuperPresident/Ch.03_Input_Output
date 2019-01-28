@@ -21,7 +21,7 @@ print("This is a conversion program")
 
 
    #temperature
-temp=int(input("What's the temperature outside?"))
+temp=int(input("What's the temperature outside?\n"))
 
 print("That is", (temp-32)*5/9)
 
