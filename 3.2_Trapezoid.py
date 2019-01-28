@@ -17,4 +17,7 @@ print (intr)
 
 b1=int(input("What's the first base?\n"))
 b2=int(input("What's the second base?\n"))
-b1=int(input("What's the height?\n"))
+h=int(input("What's the height?\n"))
+
+
+print("The area is", ((b1+b2)/2)*h )
