@@ -11,13 +11,13 @@ print('Darius')
 
 2. Write a program that asks someone for their name and then prints their name to the screen?
 
-'''
-
+name=input("whats your name\n")
+print(name)
 '''
 3. Predict the output of the following lines of code and then test them? Write down your prediction and the output.
-print (17/9)
-print (17//9)
-print (17%9)
+print (17/9) 1.8888888
+print (17//9) 1
+print (17%9) 8
 '''
 
 

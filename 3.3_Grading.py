@@ -12,3 +12,14 @@ Sem Grade: 86   Final Exam: 52   Exam worth: 15%    Overall: 80.9
 Sem Grade: 95   Final Exam: 32   Exam worth: 10%    Overall: 88.7
 Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
+
+
+
+grade=float(input("What's the grade \n"))
+test=float(input("What's your test score\n"))
+worth=float(input("What's the height?\n"))
+
+worth=worth/100
+
+overall=grade*(1-worth)+test*worth
+print (overall, "%")
