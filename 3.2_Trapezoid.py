@@ -21,5 +21,3 @@ h=int(input("What's the height?\n"))
 
 
 print("The area is", ((b1+b2)/2)*h )
-name=input("whats your name\n")
-print(name)

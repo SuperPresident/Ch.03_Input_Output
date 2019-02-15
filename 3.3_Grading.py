@@ -17,9 +17,19 @@ Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 
 grade=float(input("What's the grade \n"))
 test=float(input("What's your test score\n"))
-worth=float(input("What's the height?\n"))
+worth=float(input("What's the worth?\n"))
 
 worth=worth/100
 
 overall=grade*(1-worth)+test*worth
-print (overall, "%")
+
+print ("your overall grade is",letter,"%")
+
+if overall>=100 and worth==0:
+    letter="A+"
+elif overall>=100:
+    letter="you are a lucky Guessere"
+elif overall>=90:
+    letter="A"
+elif overall>=80:
+    letter="B"
